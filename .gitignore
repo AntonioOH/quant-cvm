@@ -1,0 +1,14 @@
+# Ambiente virtual (recriavel com requirements.txt)
+.venv/
+
+# Dados baixados da CVM/BCB (reproduziveis pelo script de coleta)
+data/*
+!data/.gitkeep
+
+# Cache do Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Lixo do macOS
+.DS_Store
